@@ -1,0 +1,56 @@
+.container{
+margin-top: 10px;
+ display:flex ;
+ flex-direction: column;
+ 
+
+}
+
+.cart{
+
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    .all-carts{
+        display:flex ;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    
+    .shadow{
+        
+        box-shadow: 0px 1px rgb(230, 230, 230);
+}
+
+.actif{
+
+    color :rgb(0, 120, 113);
+}
+
+.all-Agent{
+
+    color :rgb(0, 107, 180);
+}
+
+.disconnected-agents{
+
+    color :rgb(189, 39, 30);
+
+}
+.pending-agents{
+
+    color :rgb(254, 197, 20);
+
+}
+
+.never-connected{
+
+    color :rgb(100, 106, 119);
+}
